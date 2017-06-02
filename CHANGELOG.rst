@@ -1,10 +1,20 @@
 Changelog
 =========
 
-0.1.3 (XX-XX-XXX)
------------------
+0.1.4 (XX-XX-XXXX)
+------------------
+
+ - Update language selector templatetag to work with pages without language as well
+ - Update language selector to order language selector based on language positions
+
+
+0.1.3 (21-04-2017)
+------------------
 
  - Add ``include_self=False`` kwarg to ``TranslatablePage.get_translations()`` to have the page return itself as well
+ - Add language selector template tags
+ - Update ``Language`` management to make use of ``wagtail.contrib.modeladmin``
+ - Update ``Tox`` and ``Travis`` test matrix to include ``Wagtail 1.10`` support
 
 
 0.1.2 (15-03-2017)
